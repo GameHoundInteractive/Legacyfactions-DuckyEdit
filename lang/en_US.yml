@@ -1,0 +1,14 @@
+root:
+  AUTHOR: LegacyFactions
+  LANGUAGE: English (U.S. English)
+  ENCODING: UTF-8
+  LOCALE: en_US
+  EXTENDS: en_AU
+  REQUIRESUNICODE: 'false'
+  DEFAULT: 'false'
+  STATE: complete
+COMMAND:
+  CONFIG:
+    COLOURSET: '" color option set to "'
+    INVALID:
+      COLOUR: 'Cannot set "%1$s": "%2$s" is not a valid color.'

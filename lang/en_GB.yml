@@ -1,0 +1,17 @@
+root:
+  AUTHOR: LegacyFactions
+  LANGUAGE: English (British English)
+  ENCODING: UTF-8
+  LOCALE: en_GB
+  EXTENDS: none
+  REQUIRESUNICODE: 'false'
+  DEFAULT: 'true'
+  STATE: complete
+COMMAND:
+  CONFIG:
+    COLOURSET: '" colour option set to "'
+    INVALID:
+      COLOUR: 'Cannot set "%1$s": "%2$s" is not a valid colour.'
+      COLLECTION: '"%1$s" is not a data collection type which can be modified with this
+        command.'
+

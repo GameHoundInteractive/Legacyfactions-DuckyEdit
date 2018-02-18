@@ -81,7 +81,7 @@ public class CommandAliases {
 	public static List<String> cmdAliasesSeeChunk = Lists.newArrayList("seechunk", "sc");
 	public static List<String> cmdAliasesSethome = Lists.newArrayList("sethome");
 	public static List<String> cmdAliasesSetwarp = Lists.newArrayList("setwarp");
-	public static List<String> cmdAliasesShow = Lists.newArrayList("show", "who");
+	public static List<String> cmdAliasesShow = Lists.newArrayList("show", "who", "f");
 	public static List<String> cmdAliasesShowInvites = Lists.newArrayList("showinvites");
 	public static List<String> cmdAliasesStatus = Lists.newArrayList("status", "s");
 	public static List<String> cmdAliasesStuck = Lists.newArrayList("stuck");

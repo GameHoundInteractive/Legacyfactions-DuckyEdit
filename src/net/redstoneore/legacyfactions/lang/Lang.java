@@ -1247,6 +1247,7 @@ public enum Lang {
 		return new LangBuilder(this);
 	}
 	
+	@SuppressWarnings("deprecation")
 	public static void reload(String resourcePath) {
 		File lang = new File(Factions.get().getDataFolder(), "locale.yml");
 		InputStream defLangStream = null;

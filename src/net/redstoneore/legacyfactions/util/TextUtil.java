@@ -148,7 +148,7 @@ public class TextUtil {
 		char[] chars = first.toCharArray();
 
 		for (int i = 0; i < chars.length; i++) {
-			if (chars[i] == 'ยง') {
+			if (chars[i] == 'ง') {
 				if (color != null) {
 					if (color.isColor()) {
 						message.then(text).color(color);

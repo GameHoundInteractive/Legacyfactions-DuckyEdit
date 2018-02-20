@@ -61,6 +61,7 @@ public class PlayerMixin {
 	 * @param player
 	 * @return
 	 */
+	@SuppressWarnings("deprecation")
 	public static ItemStack getItemInMainHand(Player player) {
 		if (supportsOffHand) {
 			return player.getInventory().getItemInMainHand();

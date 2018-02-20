@@ -941,9 +941,9 @@ public class Config {
 
 	protected static String _sectionMap = Lang.CONFIG_MAP_SECTION.name();
 	
-	public static transient int mapHeight = 8;
-	public static transient int mapWidth = 39;
-	public static transient char[] mapKeyChrs = "\\/#$%=&^ABCDEFGHJKLMNOPQRSTUVWXYZ1234567890abcdeghjmnopqrsuvwxyz?".toCharArray();
+	public static transient int mapHeight = 17;
+	public static transient int mapWidth = 49;
+	public static transient char[] mapKeyChrs = "■■/#$%=&^ABCDEFGHJKLMNOPQRSTUVWXYZ1234567890abcdeghjmnopqrsuvwxyz?".toCharArray();
 	
 	
 	// -------------------------------------------------- //

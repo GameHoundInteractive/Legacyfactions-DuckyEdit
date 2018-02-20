@@ -48,7 +48,6 @@ import net.redstoneore.legacyfactions.integration.metrics.MetricsIntegration;
 import net.redstoneore.legacyfactions.integration.novucsftop.NovucsFactionsTopIntegration;
 import net.redstoneore.legacyfactions.integration.playervaults.PlayerVaultsIntegration;
 import net.redstoneore.legacyfactions.integration.vault.VaultIntegration;
-import net.redstoneore.legacyfactions.integration.venturechat.VentureChatIntegration;
 import net.redstoneore.legacyfactions.integration.worldguard.WorldGuardIntegration;
 import net.redstoneore.legacyfactions.lang.Lang;
 import net.redstoneore.legacyfactions.listeners.AbstractConditionalListener;
@@ -241,7 +240,6 @@ public class Factions extends FactionsPluginBase {
 			PlayerVaultsIntegration.get(),
 			MetricsIntegration.get(),
 			BStatsIntegration.get(),
-			VentureChatIntegration.get(),
 			NovucsFactionsTopIntegration.get(),
 			DynmapIntegration.get()
 		);

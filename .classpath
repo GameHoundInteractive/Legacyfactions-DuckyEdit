@@ -23,7 +23,6 @@
 	<classpathentry kind="lib" path="lib/gson-2.8.1.jar"/>
 	<classpathentry kind="lib" path="lib/HikariCP-2.7.0.jar"/>
 	<classpathentry kind="lib" path="lib/HolographicDisplays.jar"/>
-	<classpathentry kind="lib" path="lib/jackson-dataformat-msgpack-0.7.1.jar"/>
 	<classpathentry kind="lib" path="lib/jasypt-1.9.2.jar"/>
 	<classpathentry kind="lib" path="lib/MVdWPlaceholderAPI.jar"/>
 	<classpathentry kind="lib" path="lib/picocli-0.9.8.jar"/>

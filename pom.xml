@@ -36,7 +36,7 @@
 	<dependency>
     	<groupId>com.fasterxml.jackson.core</groupId>
     	<artifactId>jackson-core</artifactId>
-        <version>2.5.2</version>
+        <version>2.9.4</version>
 	</dependency>
   	<dependency>
   		<groupId>com.fasterxml.jackson.core</groupId>
@@ -53,5 +53,11 @@
     	<artifactId>jackson-dataformat-msgpack</artifactId>
    		<version>0.7.1</version>
 	</dependency>
+	<dependency>
+    	<artifactId>mkremins</artifactId>
+    	<groupId>fanciful</groupId>
+    	<version>0.1.0</version>
+    	<scope>system</scope>
+    	<systemPath>${project.basedir}/lib/fanciful-0.1.0.jar</systemPath>
   </dependencies>
 </project>
